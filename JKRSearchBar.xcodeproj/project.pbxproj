@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4329127B1E8E010D00411B7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4329127A1E8E010D00411B7E /* main.m */; };
+		4329127E1E8E010D00411B7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4329127D1E8E010D00411B7E /* AppDelegate.m */; };
+		432912861E8E010D00411B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432912851E8E010D00411B7E /* Assets.xcassets */; };
+		432912891E8E010D00411B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432912871E8E010D00411B7E /* LaunchScreen.storyboard */; };
+		432912941E8E010D00411B7E /* JKRSearchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432912931E8E010D00411B7E /* JKRSearchBarTests.m */; };
+		4329129F1E8E010D00411B7E /* JKRSearchBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4329129E1E8E010D00411B7E /* JKRSearchBarUITests.m */; };
+		432912AE1E8E012C00411B7E /* JKRNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432912AD1E8E012C00411B7E /* JKRNavigationViewController.m */; };
+		432912B11E8E023C00411B7E /* JKRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432912B01E8E023C00411B7E /* JKRRootViewController.m */; };
+		432912B41E8E024100411B7E /* JKRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432912B31E8E024100411B7E /* JKRViewController.m */; };
+		432912B71E8E025600411B7E /* JKRSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432912B61E8E025600411B7E /* JKRSearchResultViewController.m */; };
+		432912B91E8E03A800411B7E /* country.txt in Resources */ = {isa = PBXBuildFile; fileRef = 432912B81E8E03A800411B7E /* country.txt */; };
+		432912BC1E8E045800411B7E /* JKRDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 432912BB1E8E045800411B7E /* JKRDataStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		432912901E8E010D00411B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4329126E1E8E010D00411B7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 432912751E8E010D00411B7E;
+			remoteInfo = JKRSearchBar;
+		};
+		4329129B1E8E010D00411B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4329126E1E8E010D00411B7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 432912751E8E010D00411B7E;
+			remoteInfo = JKRSearchBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		432912761E8E010D00411B7E /* JKRSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKRSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4329127A1E8E010D00411B7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4329127C1E8E010D00411B7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4329127D1E8E010D00411B7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		432912851E8E010D00411B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		432912881E8E010D00411B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4329128A1E8E010D00411B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4329128F1E8E010D00411B7E /* JKRSearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRSearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		432912931E8E010D00411B7E /* JKRSearchBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRSearchBarTests.m; sourceTree = "<group>"; };
+		432912951E8E010D00411B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4329129A1E8E010D00411B7E /* JKRSearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRSearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4329129E1E8E010D00411B7E /* JKRSearchBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRSearchBarUITests.m; sourceTree = "<group>"; };
+		432912A01E8E010D00411B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432912AC1E8E012C00411B7E /* JKRNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRNavigationViewController.h; sourceTree = "<group>"; };
+		432912AD1E8E012C00411B7E /* JKRNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRNavigationViewController.m; sourceTree = "<group>"; };
+		432912AF1E8E023C00411B7E /* JKRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRRootViewController.h; sourceTree = "<group>"; };
+		432912B01E8E023C00411B7E /* JKRRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRRootViewController.m; sourceTree = "<group>"; };
+		432912B21E8E024100411B7E /* JKRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRViewController.h; sourceTree = "<group>"; };
+		432912B31E8E024100411B7E /* JKRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRViewController.m; sourceTree = "<group>"; };
+		432912B51E8E025600411B7E /* JKRSearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRSearchResultViewController.h; sourceTree = "<group>"; };
+		432912B61E8E025600411B7E /* JKRSearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRSearchResultViewController.m; sourceTree = "<group>"; };
+		432912B81E8E03A800411B7E /* country.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = country.txt; sourceTree = "<group>"; };
+		432912BA1E8E045800411B7E /* JKRDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRDataStore.h; sourceTree = "<group>"; };
+		432912BB1E8E045800411B7E /* JKRDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRDataStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		432912731E8E010D00411B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4329128C1E8E010D00411B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432912971E8E010D00411B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4329126D1E8E010D00411B7E = {
+			isa = PBXGroup;
+			children = (
+				432912781E8E010D00411B7E /* JKRSearchBar */,
+				432912921E8E010D00411B7E /* JKRSearchBarTests */,
+				4329129D1E8E010D00411B7E /* JKRSearchBarUITests */,
+				432912771E8E010D00411B7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		432912771E8E010D00411B7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				432912761E8E010D00411B7E /* JKRSearchBar.app */,
+				4329128F1E8E010D00411B7E /* JKRSearchBarTests.xctest */,
+				4329129A1E8E010D00411B7E /* JKRSearchBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		432912781E8E010D00411B7E /* JKRSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				4329127C1E8E010D00411B7E /* AppDelegate.h */,
+				4329127D1E8E010D00411B7E /* AppDelegate.m */,
+				432912AC1E8E012C00411B7E /* JKRNavigationViewController.h */,
+				432912AD1E8E012C00411B7E /* JKRNavigationViewController.m */,
+				432912AF1E8E023C00411B7E /* JKRRootViewController.h */,
+				432912B01E8E023C00411B7E /* JKRRootViewController.m */,
+				432912B21E8E024100411B7E /* JKRViewController.h */,
+				432912B31E8E024100411B7E /* JKRViewController.m */,
+				432912B51E8E025600411B7E /* JKRSearchResultViewController.h */,
+				432912B61E8E025600411B7E /* JKRSearchResultViewController.m */,
+				432912BA1E8E045800411B7E /* JKRDataStore.h */,
+				432912BB1E8E045800411B7E /* JKRDataStore.m */,
+				432912851E8E010D00411B7E /* Assets.xcassets */,
+				432912871E8E010D00411B7E /* LaunchScreen.storyboard */,
+				4329128A1E8E010D00411B7E /* Info.plist */,
+				432912B81E8E03A800411B7E /* country.txt */,
+				432912791E8E010D00411B7E /* Supporting Files */,
+			);
+			path = JKRSearchBar;
+			sourceTree = "<group>";
+		};
+		432912791E8E010D00411B7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4329127A1E8E010D00411B7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		432912921E8E010D00411B7E /* JKRSearchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				432912931E8E010D00411B7E /* JKRSearchBarTests.m */,
+				432912951E8E010D00411B7E /* Info.plist */,
+			);
+			path = JKRSearchBarTests;
+			sourceTree = "<group>";
+		};
+		4329129D1E8E010D00411B7E /* JKRSearchBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4329129E1E8E010D00411B7E /* JKRSearchBarUITests.m */,
+				432912A01E8E010D00411B7E /* Info.plist */,
+			);
+			path = JKRSearchBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		432912751E8E010D00411B7E /* JKRSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432912A31E8E010D00411B7E /* Build configuration list for PBXNativeTarget "JKRSearchBar" */;
+			buildPhases = (
+				432912721E8E010D00411B7E /* Sources */,
+				432912731E8E010D00411B7E /* Frameworks */,
+				432912741E8E010D00411B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKRSearchBar;
+			productName = JKRSearchBar;
+			productReference = 432912761E8E010D00411B7E /* JKRSearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4329128E1E8E010D00411B7E /* JKRSearchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432912A61E8E010D00411B7E /* Build configuration list for PBXNativeTarget "JKRSearchBarTests" */;
+			buildPhases = (
+				4329128B1E8E010D00411B7E /* Sources */,
+				4329128C1E8E010D00411B7E /* Frameworks */,
+				4329128D1E8E010D00411B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				432912911E8E010D00411B7E /* PBXTargetDependency */,
+			);
+			name = JKRSearchBarTests;
+			productName = JKRSearchBarTests;
+			productReference = 4329128F1E8E010D00411B7E /* JKRSearchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		432912991E8E010D00411B7E /* JKRSearchBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432912A91E8E010D00411B7E /* Build configuration list for PBXNativeTarget "JKRSearchBarUITests" */;
+			buildPhases = (
+				432912961E8E010D00411B7E /* Sources */,
+				432912971E8E010D00411B7E /* Frameworks */,
+				432912981E8E010D00411B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4329129C1E8E010D00411B7E /* PBXTargetDependency */,
+			);
+			name = JKRSearchBarUITests;
+			productName = JKRSearchBarUITests;
+			productReference = 4329129A1E8E010D00411B7E /* JKRSearchBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4329126E1E8E010D00411B7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tronsis_ios;
+				TargetAttributes = {
+					432912751E8E010D00411B7E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					4329128E1E8E010D00411B7E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 432912751E8E010D00411B7E;
+					};
+					432912991E8E010D00411B7E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 432912751E8E010D00411B7E;
+					};
+				};
+			};
+			buildConfigurationList = 432912711E8E010D00411B7E /* Build configuration list for PBXProject "JKRSearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4329126D1E8E010D00411B7E;
+			productRefGroup = 432912771E8E010D00411B7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				432912751E8E010D00411B7E /* JKRSearchBar */,
+				4329128E1E8E010D00411B7E /* JKRSearchBarTests */,
+				432912991E8E010D00411B7E /* JKRSearchBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		432912741E8E010D00411B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432912B91E8E03A800411B7E /* country.txt in Resources */,
+				432912891E8E010D00411B7E /* LaunchScreen.storyboard in Resources */,
+				432912861E8E010D00411B7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4329128D1E8E010D00411B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432912981E8E010D00411B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		432912721E8E010D00411B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432912BC1E8E045800411B7E /* JKRDataStore.m in Sources */,
+				432912B11E8E023C00411B7E /* JKRRootViewController.m in Sources */,
+				4329127E1E8E010D00411B7E /* AppDelegate.m in Sources */,
+				432912AE1E8E012C00411B7E /* JKRNavigationViewController.m in Sources */,
+				432912B71E8E025600411B7E /* JKRSearchResultViewController.m in Sources */,
+				432912B41E8E024100411B7E /* JKRViewController.m in Sources */,
+				4329127B1E8E010D00411B7E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4329128B1E8E010D00411B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432912941E8E010D00411B7E /* JKRSearchBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432912961E8E010D00411B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4329129F1E8E010D00411B7E /* JKRSearchBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		432912911E8E010D00411B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 432912751E8E010D00411B7E /* JKRSearchBar */;
+			targetProxy = 432912901E8E010D00411B7E /* PBXContainerItemProxy */;
+		};
+		4329129C1E8E010D00411B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 432912751E8E010D00411B7E /* JKRSearchBar */;
+			targetProxy = 4329129B1E8E010D00411B7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		432912871E8E010D00411B7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432912881E8E010D00411B7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		432912A11E8E010D00411B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		432912A21E8E010D00411B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		432912A41E8E010D00411B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKRSearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		432912A51E8E010D00411B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKRSearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		432912A71E8E010D00411B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKRSearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRSearchBar.app/JKRSearchBar";
+			};
+			name = Debug;
+		};
+		432912A81E8E010D00411B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKRSearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRSearchBar.app/JKRSearchBar";
+			};
+			name = Release;
+		};
+		432912AA1E8E010D00411B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKRSearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKRSearchBar;
+			};
+			name = Debug;
+		};
+		432912AB1E8E010D00411B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKRSearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKRSearchBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432912711E8E010D00411B7E /* Build configuration list for PBXProject "JKRSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432912A11E8E010D00411B7E /* Debug */,
+				432912A21E8E010D00411B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432912A31E8E010D00411B7E /* Build configuration list for PBXNativeTarget "JKRSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432912A41E8E010D00411B7E /* Debug */,
+				432912A51E8E010D00411B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		432912A61E8E010D00411B7E /* Build configuration list for PBXNativeTarget "JKRSearchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432912A71E8E010D00411B7E /* Debug */,
+				432912A81E8E010D00411B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		432912A91E8E010D00411B7E /* Build configuration list for PBXNativeTarget "JKRSearchBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432912AA1E8E010D00411B7E /* Debug */,
+				432912AB1E8E010D00411B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4329126E1E8E010D00411B7E /* Project object */;
+}
